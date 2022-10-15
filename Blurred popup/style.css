@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 45px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    border-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+
+
+
+}
+
+.btn:hover {
+    background-color: rgb(112, 112, 214);
+}
+
+.active.container {
+    filter: blur(5px) brightness(0.9);
+}
+
+.popup-container {
+    position: fixed;
+    transform: translate(-50% -50%);
+    top: 50%;
+    left: 30%;
+    width: 600px;
+    height: 280px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    background: url("https://images.pexels.com/photos/5059238/pexels-photo-5059238.jpeg?auto=compress&cs=tinysrgb&w=800");
+    transition: filter 0.9s;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px black;
+    transition: all 0.9s;
+    opacity: 1;
+}
+h4{
+    font-family: cursive;
+    font-size: 30px;
+    margin: 10px;
+    color:darkorchid
+
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color:black
+
+}
+.popup-btn{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    background-color:dimgray;
+    cursor: pointer;
+    border: 3px solid;
+
+}
+.input{
+    border: 3px solid;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.close-icon{
+    position: absolute;
+    cursor: pointer;
+    left: 92%;
+   
+}
+.close-icon:hover{
+    background-color:darkgrey;
+}
+.active.popup-container{
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+}
