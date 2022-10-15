@@ -1,0 +1,51 @@
+.center{
+    text-align: center;
+}
+.bg{
+    background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+    background-color: whitesmoke; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+} 
+
+body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    margin:0 3px ;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    
+          
+}
+.button:hover{
+    background-color: darkgray
+}
+.row{
+margin: 7px 0;
+
+}
+input{
+    margin: 13px;
+    border: 5px;
+    border-radius: 12px;
+    max-width: 1200px;
+    width: 20rem;
+    height: 3.5rem;
+}
+/* .button2{
+    width: 7.5rem;
+    height: 3.5rem;
+}
+.button1{
+    width: 6.9rem;
+    height: 3.5rem;
+} */
